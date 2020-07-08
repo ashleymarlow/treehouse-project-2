@@ -163,31 +163,26 @@ footer {
   border-top: 1px solid #323232;
 }
 
+.wrapper {
+  width: 90%;
+  max-width: 310px;
+  margin: 0 auto;
+}
+
+/* NAVIGATION */
+
+.footer-nav {
+  display: none;
+}
+
+.back-top {
+  float: right;
+  font-weight: 600;
+  margin-top: -42px;
+}
+
 
 /* MEDIA QUERIES */
-
-/* SMALL UP */
-@media (min-width: 320px) {
-  /* GLOBAL */
-  .wrapper {
-    width: 90%;
-    max-width: 310px;
-    margin: 0 auto;
-  }
-
-  /* NAVIGATION */
-
-  .footer-nav {
-    display: none;
-  }
-
-  .back-top {
-    float: right;
-    font-weight: 600;
-    margin-top: -42px;
-  }
-
-}
 
 /* MEDIUM UP */
 @media (min-width: 768px) {
